@@ -1,4 +1,4 @@
-package Votes;
+package breeds;
 
 import config.DogsConfig;
 import config.Endpoints;
@@ -7,14 +7,14 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class VotesGetTest extends DogsConfig {
-
-    @DisplayName("getting votes by Sub Id.")
+public class getByLimitTest extends DogsConfig {
+    @DisplayName("getting breeds by parameter limit.")
     @Test
-    public void getVotesBySubID(){
+    public void getBreedsBySubId(){
         given()
-                .queryParam("sub_id","my-user-1232")
+                .queryParam("limit",10)
                 .when()
-                .get(Endpoints.votes);
+                .get(Endpoints.breeds);
     }
+
 }
