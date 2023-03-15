@@ -17,10 +17,9 @@ public class getFavouriteBySubIdTest extends DogsConfig {
     public void getFavouriteDogUsingSubId(){
 
         given()
-                .queryParam("sub_id","your-user-1234")
+                .queryParam("sub_id","my-user-1234")
                 .when()
                 .get("favourites/");
-
 
     }
 }
