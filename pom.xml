@@ -75,6 +75,7 @@
             <artifactId>rest-assured</artifactId>
             <version>4.3.3</version>
             <scope>test</scope>
+
         </dependency>
 
         <dependency>

@@ -1,13 +1,23 @@
 package tests;
 
 import config.DogsConfig;
+import config.Endpoints;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-public clascategoryGetTest extends DogsConfig {
-//    @DisplayName("getting category")
-//    @Test
-    public void getAllCategories(){
+import static io.restassured.RestAssured.given;
 
+public class categoryGetTest extends DogsConfig {
+    String categories;
+    @DisplayName("getting categories")
+    @Test
+    public void getCategory(){
+
+        given()
+                .when()
+                .get(Endpoints.categories)
+                .then()
+        ;
     }
-
 
 }

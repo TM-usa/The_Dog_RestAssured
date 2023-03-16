@@ -21,7 +21,7 @@ public class votesUpPostTest extends DogsConfig {
 
         String voteBodyVJson ="{\n" +
                 "\t\"image_id\":\"jhfbvuufb\",\n" +
-                "\t\"sub_id\": \"my-user-1234\",\n" +
+                "\t\"sub_id\": \"my-userrr-5534\",\n" +
                 "\t\"value\":1\n" +
                 "}";
 

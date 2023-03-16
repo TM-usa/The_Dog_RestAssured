@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 public class voteDeleteByVoteIdTest extends DogsConfig {
-    String vote_id;
+    String vote_id = "-1";
 
     @DisplayName("delete vote by vote_id")
     @Test
