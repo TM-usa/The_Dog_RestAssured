@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.voteDeleteTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.197 s <<< FAILURE! - in tests.voteDeleteTest
-deleteByVoteId  Time elapsed: 1.196 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.225 s <<< FAILURE! - in tests.voteDeleteTest
+deleteByVoteId  Time elapsed: 1.225 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <401>.

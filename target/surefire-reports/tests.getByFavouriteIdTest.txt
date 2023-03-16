@@ -1,5 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: tests.getByFavouriteIdTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.962 s - in tests.getByFavouriteIdTest
-getByFavouriteId  Time elapsed: 5.893 s
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.555 s <<< FAILURE! - in tests.getByFavouriteIdTest
+getByFavouriteId  Time elapsed: 1.555 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at tests.getByFavouriteIdTest.getByFavouriteId(getByFavouriteIdTest.java:18)
+

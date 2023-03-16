@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: tests.getBySubIdTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.429 s <<< FAILURE! - in tests.getBySubIdTest
-getFavouriteDogs  Time elapsed: 0.291 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.589 s <<< FAILURE! - in tests.getBySubIdTest
+getFavouriteDogs  Time elapsed: 0.829 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
 
 	at tests.getBySubIdTest.getFavouriteDogs(getBySubIdTest.java:31)
 
-getFavouriteDogUsingSubId  Time elapsed: 1.136 s  <<< FAILURE!
+getFavouriteDogUsingSubId  Time elapsed: 1.76 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.

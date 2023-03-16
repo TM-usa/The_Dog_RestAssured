@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.votesDownPostTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.483 s <<< FAILURE! - in tests.votesDownPostTest
-createVoteDown  Time elapsed: 1.483 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.224 s <<< FAILURE! - in tests.votesDownPostTest
+createVoteDown  Time elapsed: 1.224 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <201> but was <401>.

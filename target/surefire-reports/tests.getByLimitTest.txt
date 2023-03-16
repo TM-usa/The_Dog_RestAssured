@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.getByLimitTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.067 s <<< FAILURE! - in tests.getByLimitTest
-getNameNotInJson  Time elapsed: 3.259 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.753 s <<< FAILURE! - in tests.getByLimitTest
+getNameNotInJson  Time elapsed: 2.771 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path name doesn't match.
@@ -11,5 +11,5 @@ Expected: a collection containing "Thapelo Nghayo"
 
 	at tests.getByLimitTest.getNameNotInJson(getByLimitTest.java:42)
 
-getBreedsBySubId  Time elapsed: 1.595 s
-getNameMatch  Time elapsed: 3.212 s
+getBreedsBySubId  Time elapsed: 1.721 s
+getNameMatch  Time elapsed: 3.261 s

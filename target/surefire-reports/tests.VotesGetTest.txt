@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
-Test set: tests.VotesGetTest
+Test set: tests.votesGetTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.326 s <<< FAILURE! - in tests.VotesGetTest
-getVotesByImageId  Time elapsed: 1.133 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.75 s <<< FAILURE! - in tests.votesGetTest
+getVotesByImageId  Time elapsed: 1.48 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
 
-	at tests.VotesGetTest.getVotesByImageId(VotesGetTest.java:35)
+	at tests.votesGetTest.getVotesByImageId(votesGetTest.java:36)
 
-getVotesBySubID  Time elapsed: 1.193 s  <<< FAILURE!
+getVotesBySubID  Time elapsed: 1.27 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
 
-	at tests.VotesGetTest.getVotesBySubID(VotesGetTest.java:19)
+	at tests.votesGetTest.getVotesBySubID(votesGetTest.java:21)
 

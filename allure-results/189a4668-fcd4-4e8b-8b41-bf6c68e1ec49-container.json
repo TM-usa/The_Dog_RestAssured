@@ -1,0 +1,1 @@
+{"uuid":"189a4668-fcd4-4e8b-8b41-bf6c68e1ec49","name":"Check if JSON body does not have Thapelo Nghayo","children":["fc191cc9-6f9b-4836-8006-1cebf458cdf8"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1678972007457,"stop":1678972007457}],"afters":[],"start":1678972007456,"stop":1678972010228}
