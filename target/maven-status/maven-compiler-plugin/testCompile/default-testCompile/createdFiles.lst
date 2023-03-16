@@ -1,0 +1,12 @@
+tests\getByFavouriteIdTest.class
+tests\postToFavTest.class
+tests\getByLimitTest.class
+tests\getTest.class
+tests\votesDownPostTest.class
+tests\VotesGetTest.class
+tests\deleteFavTest.class
+tests\voteDeleteTest.class
+config\DogsConfig.class
+config\constants.class
+tests\getBySubIdTest.class
+config\Endpoints.class

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: tests.postToFavTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.479 s <<< FAILURE! - in tests.postToFavTest
+createNewFavouriteSubId  Time elapsed: 1.227 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at tests.postToFavTest.createNewFavouriteSubId(postToFavTest.java:25)
+
+testForThePresenceOfTheNewlyCreatedFavJson  Time elapsed: 1.252 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at tests.postToFavTest.testForThePresenceOfTheNewlyCreatedFavJson(postToFavTest.java:38)
+

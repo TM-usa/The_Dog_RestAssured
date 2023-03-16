@@ -1,0 +1,1 @@
+{"uuid":"29967e8c-9043-47ae-ad9b-032d2798f947","name":"test if Favourite with sub_id = I-am-a-tester is created","children":["600fc797-45a6-4601-a2f0-58272f897577"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1678968447673,"stop":1678968447673}],"afters":[],"start":1678968447666,"stop":1678968448902}

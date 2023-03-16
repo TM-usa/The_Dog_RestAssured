@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: tests.getByFavouriteIdTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.962 s - in tests.getByFavouriteIdTest
+getByFavouriteId  Time elapsed: 5.893 s

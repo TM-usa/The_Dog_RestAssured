@@ -1,0 +1,1 @@
+{"uuid":"9dddbf41-1e70-4ec2-a1c0-e6f9ef6bf0e0","name":"Check if JSON body has Afghan Hound","children":["cdc898c6-a344-40a7-be7b-a87f8a5a35f5"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1678968768211,"stop":1678968768211}],"afters":[],"start":1678968768211,"stop":1678968770068}
