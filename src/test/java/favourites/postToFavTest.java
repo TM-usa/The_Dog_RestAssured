@@ -15,7 +15,7 @@ public class postToFavTest extends DogsConfig {
     @Test
     public void createNewFavouriteSubId(){
         String favouriteBodyJson = "{\n" +
-                "\t\"image_id\":\"98445huf8kb\",\n" +
+                "\t\"image_id\":\"984555555uf8kb\",\n" +
                 "\t\"sub_id\": \"I-am-a-tester\"\n" +
                 "}";
         given()
@@ -26,9 +26,9 @@ public class postToFavTest extends DogsConfig {
                 .body("message", equalTo("SUCCESS"));
     }
 
-    @DisplayName("Check if Favourite with sub_id = I-am-a-tester is created ")
+    @DisplayName("test if Favourite with sub_id = I-am-a-tester is created ")
     @Test
-    public void checkForThePresenceOfTheNewlyCreatedJson(){
+    public void testForThePresenceOfTheNewlyCreatedFavJson(){
         given()
 
                 .when()
@@ -36,7 +36,6 @@ public class postToFavTest extends DogsConfig {
                 .then()
                 .body("sub_id", hasItem("I-am-a-tester"));
     }
-
 
 
 }
