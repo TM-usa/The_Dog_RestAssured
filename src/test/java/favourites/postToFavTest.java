@@ -14,8 +14,10 @@ public class postToFavTest extends DogsConfig {
     @DisplayName("creating a favourite with a sub_id")
     @Test
     public void createNewFavouriteSubId(){
+
+
         String favouriteBodyJson = "{\n" +
-                "\t\"image_id\":\"984555555uf8kb\",\n" +
+                "\t\"image_id\":\"f8kb\",\n" +
                 "\t\"sub_id\": \"I-am-a-tester\"\n" +
                 "}";
         given()
@@ -23,7 +25,8 @@ public class postToFavTest extends DogsConfig {
                 .when()
                 .post(Endpoints.Fav)
                 .then()
-                .body("message", equalTo("SUCCESS"));
+                .body("message", equalTo("SUCCESS"))
+        ;
     }
 
     @DisplayName("test if Favourite with sub_id = I-am-a-tester is created ")

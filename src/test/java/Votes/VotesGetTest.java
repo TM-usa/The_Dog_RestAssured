@@ -16,23 +16,28 @@ public class VotesGetTest extends DogsConfig {
         given()
                 .queryParam("sub_id","my-user-1232")
                 .when()
-                .get(Endpoints.votes+4)
+                .get(Endpoints.votes)
                 .then()
                 .log()
-                .all();;
+                .all()
+        ;
+
     }
 
     @DisplayName("get by image id")
     @Test
 
 
-    public void getVotesByUserId(){
+    public void getVotesByImageId(){
 
         given()
                 .when()
                 .get(Endpoints.votes+4)
                 .then()
-                .body("image.id",equalTo("B1i67l5VQ"));
+                .body("image.id",equalTo("B1i67l5VQ"))
+                .log()
+                .all()
+        ;
 
     }
 }

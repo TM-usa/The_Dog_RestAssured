@@ -39,7 +39,8 @@ public class getByLimitTest extends DogsConfig {
                 .when()
                 .get(Endpoints.breeds)
                 .then()
-                .body("name", hasItem("Thapelo Nghayo"));
+                .body("name", hasItem("Thapelo Nghayo"))
+        ;
 
     }
 

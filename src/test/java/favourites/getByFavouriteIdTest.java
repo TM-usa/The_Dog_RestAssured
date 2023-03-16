@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 
 public class getByFavouriteIdTest extends DogsConfig {
 
-    @DisplayName("getting favourite by Id.")
+    @DisplayName("getting by favourite Id.")
     @Test
     public void getByFavouriteId(){
 

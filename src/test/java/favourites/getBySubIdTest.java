@@ -15,7 +15,11 @@ public class getBySubIdTest extends DogsConfig {
         given()
                 .queryParam("sub_id","your-user-1234")
                 .when()
-                .get(Endpoints.Fav);
+                .get(Endpoints.Fav)
+                .then()
+                .log()
+                .all()
+        ;
 
     }
     @DisplayName("getting all favourites by sub_id")
@@ -24,7 +28,8 @@ public class getBySubIdTest extends DogsConfig {
           given()
                   .urlEncodingEnabled(false)
                   .queryParam("sub_id")
-                  .when().get(Endpoints.Fav);
+                  .when().get(Endpoints.Fav)
+          ;
     }
 
 
